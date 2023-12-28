@@ -4,7 +4,7 @@
 
 .window-tabs-app {
 	> header.window-header {
-		flex: 0 0 60px;
+		flex: 0 0 30px;
 		justify-content: flex-end;
 		position: relative;
 
@@ -69,12 +69,6 @@
 	&.minimized {
 		> header.window-header h4.window-title {
 			font-size: var(--font-size-14);
-		}
-	}
-
-	&:has(.window-content .windows .app:only-child) {
-		> header.window-header {
-			flex: 0 0 35px;
 		}
 	}
 
