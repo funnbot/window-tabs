@@ -9,15 +9,15 @@
 }
 .window-tabs-app > header.window-header {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 60px;
-          flex: 0 0 60px;
+      -ms-flex: 0 0 30px;
+          flex: 0 0 30px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
   position: relative;
 }
 .window-tabs-app > header.window-header h4.window-title {
-  font-size: 0rem;
+  display: none;
 }
 .window-tabs-app > header.window-header a.header-button {
   height: 30px;
@@ -71,11 +71,6 @@
 }
 .window-tabs-app.minimized > header.window-header h4.window-title {
   font-size: var(--font-size-14);
-}
-.window-tabs-app:has(.window-content .windows .app:only-child) > header.window-header {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 35px;
-          flex: 0 0 35px;
 }
 .window-tabs-app > section.window-content {
   background-image: none;
